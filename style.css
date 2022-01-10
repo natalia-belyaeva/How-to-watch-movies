@@ -67,7 +67,7 @@ body {
 }
 
 .callout-text {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
     color: #FFFFFF;
     line-height: 130%;
@@ -85,6 +85,56 @@ body {
     margin-top:11px;
 }
 
+.course-info {
+    font-family: roboto Slab;
+    font-size: 55px;
+    line-height: 101.38%;
+    max-width: 667px;
+    height: 93px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 975px;
+    margin-bottom: 250px;
+    margin-top: 89px;
+}
+
+.course-info-web {
+    max-width: 223px;
+}
+
+.course-info-access {
+    max-width: 271px;
+}
+
+.course-info-social {
+    max-width: 245px;
+}
+
+.course-info-header {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+    margin-bottom: 14px;
+}
+
+.course-info-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.course-info-list {
+    font-size: 24px;
+    line-height: 150%;
+    padding-left: 25px;
+    max-width: 662px;
+}
 @media (min-width: 992px) and (max-width:1279px) {
     .wrapper {
         max-width: calc(834px - 140px);
@@ -150,6 +200,39 @@ body {
         font-size: 12px;
         max-width: 420px;
         margin-top: 4px;
+    }
+    .course-info {
+        font-size: 32px;
+        max-width: 386px;
+        height: 54px;
+    }
+    .course-container {
+        max-width: 564px;
+        margin-top: 52px;
+        margin-bottom: 140px;
+    }
+    .course-info-header {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .course-info-text {
+        font-size: 11px;
+    }
+    .course-info-web {
+        max-width: 142px;
+    }
+    
+    .course-info-access {
+        max-width: 172px;
+    }
+    
+    .course-info-social {
+        max-width: 142px;
+    }
+    .course-info-list {
+        font-size: 14px;
+        padding-left: 20px;
+        max-width: 384px;
     }
 }
 
@@ -228,5 +311,42 @@ body {
         font-size: 10px;
         max-width: 200px;
         margin-top: 5px;
+    }
+    .course-info {
+        font-size: 26px;
+        max-width: 310px;
+        height: 43px;
+    }
+    .course-container {
+        max-width: 564px;
+        margin-top: 17px;
+        margin-bottom: 70px;
+        flex-wrap: wrap;
+    }
+    .course-info-header {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .course-info-text {
+        font-size: 10px;
+    }
+    .course-info-web {
+        max-width: 180px;
+        margin-bottom: 22px;
+    }
+    
+    .course-info-access {
+        max-width: 165px;
+        margin-bottom: 22px;
+    }
+    
+    .course-info-social {
+        max-width: 160px;
+        margin-bottom: 22px;
+    }
+    .course-info-list {
+        font-size: 12px;
+        padding-left: 14px;
+        max-width: 299px;
     }
 }
