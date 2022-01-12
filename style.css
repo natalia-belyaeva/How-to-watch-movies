@@ -145,6 +145,53 @@ h2, h3, h4, p {
     max-width: 294px;
 }
 
+.footer {
+    background-color: #000000;
+}
+
+.footer-wrapper {
+    max-width: calc(1440px - 240px);
+    margin-left: 122px;
+    padding-top: 50px;
+    padding-bottom: 47px;
+    margin: 0 auto;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 146px;
+}
+
+.logo-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-white {
+    max-width: 198px;
+    margin-bottom: 28px;
+}
+
+.social {
+    max-width: 115px;
+    margin-bottom: 146px;
+}
+.contacts-p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.contacts-icon {
+    max-width: 27px;
+    margin-right: 22px;
+}
+
+.synch-p {
+    color: white;
+    font-size: 18px;
+}
 
 @media (min-width: 992px) and (max-width:1279px) {
     .wrapper {
