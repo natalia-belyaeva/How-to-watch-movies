@@ -230,3 +230,163 @@ body {
         margin-top: 5px;
     }
 }
+/* <!-- Курс прошло 1616 человек --> */
+
+.wrapper-feedback {
+    background: #EFEFEF;
+    /* max-width: calc(1440px - 240px); */
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px;
+    /* padding: 0 0 121px 10px; */
+}
+.feedback-content {
+    padding: 91px 111px 126px;
+    max-width: calc(1440px - 240px);
+    /* margin: 91px 126px 111px; */
+}
+h2 {
+    /* padding-top: 91px; */
+    /* margin: 0 0 78px 121px; */
+    /* margin:0 0 78 0; */
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+
+}
+.feedback {
+    max-width: 791px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 45px 21px;
+    box-sizing: border-box;
+}
+.feedback-text {
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 40px 45px 48px 45px; */
+    font-size: 20px;
+    line-height: 150%;
+    /* padding: 5px; */
+}
+.feedback-features {
+    display: flex;
+    /* max-width: 521px; */
+    /* margin-left: 30px;
+    margin-bottom: 38px; */
+}
+.feedback-personal-social {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* margin: auto;  */
+}
+.person {
+    max-width: 190px;
+    /* margin-left: 30px;
+    margin-bottom: 38px; */
+}
+.social-fb {
+    max-width: 32px;
+}
+.name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 101.38%;
+    font-weight: bold;
+    /* margin-bottom: 30px; */
+}
+
+/* движ планшет */
+
+@media (min-width: 992px) and (max-width:1279px) {  
+.wrapper-feedback {
+    /* max-width: calc(834px - 140px) */
+    max-width: 834px;
+}
+.feedback-content {
+    padding: 53px 30px 73px 64px;
+    max-width: calc(834px - 140px);
+    /* margin: 53px 73px 64px; */
+}
+h2 {
+    font-size: 32px;
+    line-height: 101.38%;
+}
+.feedback {
+    max-width: 458px;
+    padding: 23px 26px 16px;
+}
+.feedback-text{
+    font-size: 12px;
+    line-height: 150%;
+    max-width: 405px;
+    /* margin: 23px 26px 20px; */
+}
+.person {
+    max-width: 110px;
+}
+.name {
+    font-size: 17px;
+    line-height: 101.38%;
+    margin-bottom: 18px;
+}
+.social-fb {
+    max-width: 18px;
+}
+.feedback-personal-social
+{
+    margin-left: 18px;
+    /* margin: auto auto auto 0; */
+}
+}
+
+/* движ телефон */
+@media /*(min-width: 320px) and*/ (max-width: 991px) 
+{
+    .wrapper-feedback {
+        max-width: 376px;
+    }
+    .feedback-content {
+        padding: 42px 32px 53px 36px;
+        /* margin: 42px 32px 36px 53px; */
+    }
+    h2 {
+    font-size: 26px;
+    line-height: 101.38%;
+    max-width: 257px;
+    /* padding: 0 83 0 0; */
+    /* padding-right: 11px; */
+}
+    .feedback {
+        max-width: 308px;
+        box-sizing: border-box;
+        padding: 18px 21px 13px;
+    }
+    .feedback-text{
+        font-size: 10px;
+        line-height: 150%;
+        /* margin: 18px 21px; */
+    }
+    .person {
+        max-width: 80px;
+    }
+    .name {
+        font-size: 14px;
+        line-height: 101.38%;
+        margin-bottom: 14px;
+    }
+    .social-fb {
+        max-width: 15px;
+}
+.feedback-personal-social
+{
+    margin-left: 13px;
+}
+}
