@@ -2,3 +2,236 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+.wrapper {
+    max-width: calc(1440px - 240px);
+    margin: 0 auto;
+    padding: 10px 30px 0px 30px;
+}
+
+.logo-header {
+    margin-top: 21px;
+}
+
+.about-course {
+    display: flex;
+    justify-content: space-between;
+}
+
+.short-info {
+    display: flex;
+    margin-top: 100px;
+}
+
+.icon-info-title {
+    display: flex;
+    margin-top: 3px;
+}
+
+.short-info-title {
+    font-size: 20px;
+    line-height: 115%;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    max-width: 628px;
+    font-size: 80px;
+    line-height: 101.38%;
+    margin-bottom: 0;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1073px;
+}
+
+.cover-text-title {
+    margin-top: 29px;
+}
+
+.callout {
+    max-width: 483.63px;
+    height: 200.02px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #1E4681 ;
+    border-radius: 5px;
+    margin-left: 288px;
+    margin-bottom: 173px;
+    margin-top: 68px;
+    padding: 20px 31px 20px 31px;
+    box-sizing: border-box;
+}
+
+.callout-text {
+    font-family: Roboto Slab;
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 130%;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.callout-author {
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    max-width: 483px;
+    margin: 4px 0 0 0;
+}
+
+@media (min-width: 992px) and (max-width:1279px) {
+    .wrapper {
+        max-width: calc(834px - 140px);
+        padding-top: 13px;
+    }
+
+    .logo-header {
+        max-width: 65px;
+        margin-top: 0;
+    }
+
+    .short-info {
+        font-size: 12px;
+        margin-top: 56px;
+    }
+
+    .head-icon {
+        max-height: 13px;
+    }
+
+    .short-info-title {
+        font-size: 12px;
+        margin: 0 18px 0 5px;
+    }
+
+    .cover-text-title {
+        max-width: 364px;
+        font-size: 46px;
+        margin-bottom: 0;
+        margin-top: 8px;
+    }
+
+    .cover {
+        max-width: 621px;
+    }
+
+    .speaker {
+        max-width: 176px;
+    }
+
+    .main-subtitle {
+        font-size: 12px;
+        line-height: 150%;
+        margin-top: 21px;
+        max-width: 264px;
+    }
+
+    .callout {
+        max-width: 280px;
+        height: 116px;
+        border-radius: 2.9px;
+        margin-bottom: 100px;
+        margin: 0 auto;
+        margin-top: 39px;
+        padding: 11px 15px 11px 15px;
+    }
+
+    .callout-text {
+        font-size: 14px;
+        max-width: 240px;
+        padding: 0;
+        margin: 0;
+        line-height: 130%;
+    }
+
+    .callout-author {
+        font-size: 12px;
+        max-width: 420px;
+        margin-top: 4px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .wrapper {
+        max-width: calc(375px - 64px);
+        padding: 27px 5px 5px 5px;
+        margin: 0 auto;
+    }
+
+    .logo-header {
+        max-width: 52px;
+        margin-top: 0;
+    }
+
+    .short-info {
+        margin-top: 45px;
+    }
+
+    .head-icon {
+        max-height: 10px;
+    }
+
+    .short-info-title {
+        font-size: 10px;
+        margin: 0 12px 0 3px;
+    }
+
+    .cover {
+        display: block;
+    }
+
+    .cover-text-title {
+        max-width: 266px;
+        font-size: 37px;
+        margin-bottom: 0;
+        margin-top: 8px;
+    }
+
+    .mobile-screen {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .white-block{
+        display: block;
+    }
+
+    .speaker {
+        max-width: 142px;
+    }
+
+    .main-subtitle {
+        font-size: 10px;
+        margin-top: 17px;
+        margin-bottom: 0;
+        max-width: 212px;
+    }
+
+    .callout {
+        max-width: 225px;
+        border-radius: 2.33px;
+        margin-bottom: 75px;
+        margin-left: 0;
+        margin-top: 39px;
+        padding: 10px 14px 10px 14px;
+        height: 95px;
+    }
+
+    .callout-text {
+        font-size: 11px;
+        max-width: 190px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .callout-author {
+        font-size: 10px;
+        max-width: 200px;
+        margin-top: 5px;
+    }
+}
