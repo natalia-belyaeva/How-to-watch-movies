@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+h2, h3, h4, p {
+    margin: 0;
+    color: #000000;
+}
+
 .wrapper {
     max-width: calc(1440px - 240px);
     margin: 0 auto;
@@ -84,6 +89,108 @@ h1 {
     margin: 4px 0 0 0;
 }
 
+.start-course {
+    background-color: #9DC9C8;
+}
+
+.start-course-wrapper {
+    max-width: calc(1440px - 240px);
+    margin-left: 122px;
+    padding-top: 179px;
+    padding-bottom: 185px;
+    margin: 0 auto;
+}
+
+.start-course-h2 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 54px;
+}
+
+.start-course-price {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.start-course-rub {
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 80px;
+}
+
+.start-course-bottom {
+    display: flex;
+}
+
+.any-level {
+    margin-right: 70px;
+    max-width: 294px;
+}
+
+.start-course-h4 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.start-course-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.come-now {
+    max-width: 294px;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footer-wrapper {
+    max-width: calc(1440px - 240px);
+    margin-left: 122px;
+    padding-top: 50px;
+    padding-bottom: 47px;
+    margin: 0 auto;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 146px;
+}
+
+.logo-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-white {
+    max-width: 198px;
+    margin-bottom: 28px;
+}
+
+.social {
+    max-width: 115px;
+    margin-bottom: 146px;
+}
+.contacts-p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.contacts-icon {
+    max-width: 27px;
+    margin-right: 22px;
+}
+
+.synch-p {
+    color: white;
+    font-size: 18px;
+}
+
 @media (min-width: 992px) and (max-width:1279px) {
     .wrapper {
         max-width: calc(834px - 140px);
@@ -153,6 +260,46 @@ h1 {
         font-size: 12px;
         max-width: 420px;
         margin-top: 4px;
+    }
+
+    .start-course-h2 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .start-course-price {
+        font-size: 14px;
+    }
+
+    .start-course-rub {
+        font-size: 46px;
+        margin-bottom: 40px;
+    }
+
+    .start-course-h4 {
+        font-size: 14px;
+        margin-bottom: 9px;
+    }
+
+    .start-course-text {
+        font-size: 10px;
+    }
+
+    .any-level {
+        margin-right: 40px;
+        max-width: 170px;
+    }
+
+    .come-now {
+        max-width: 170px;
+    }
+
+    .start-course-wrapper {
+        max-width: 694px;
+        margin-left: 70px;
+        padding-top: 103px;
+        padding-bottom: 107px;
+        margin: 0 auto;
     }
 }
 
@@ -233,5 +380,46 @@ h1 {
         font-size: 10px;
         max-width: 200px;
         margin-top: 5px;
+    }
+
+    .start-course-h2 {
+        font-size: 26px;
+        margin-bottom: 22px;
+        max-width: 224px;
+    }
+
+    .start-course-price {
+        font-size: 12px;
+    }
+
+    .start-course-rub {
+        font-size: 37px;
+        margin-bottom: 38px;
+    }
+
+    .start-course-h4 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .start-course-text {
+        font-size: 10px;
+    }
+
+    .any-level {
+        margin-right: 31px;
+        max-width: 138px;
+    }
+
+    .come-now {
+        max-width: 138px;
+    }
+
+    .start-course-wrapper {
+        max-width: calc(375px - 68px);
+        margin-left: 35px;
+        padding-top: 62px;
+        padding-bottom: 63px;
+        margin: 0 auto;
     }
 }
