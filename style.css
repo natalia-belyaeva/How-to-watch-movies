@@ -301,6 +301,37 @@ h1 {
         padding-bottom: 107px;
         margin: 0 auto;
     }
+
+    .footer-wrapper {
+        max-width: 694px;
+        margin-left: 70px;
+        padding-top: 29px;
+        padding-bottom: 14px;
+        margin: 0 auto;
+    }
+
+    .logo-white {
+        max-width: 67px;
+        margin-bottom: 18px;
+    }
+
+    .social {
+        max-width: 115px;
+        margin-bottom: 85px;
+    }
+    .contacts-p {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .contacts-icon {
+        max-width: 16px;
+        margin-right: 13px;
+    }
+
+    .synch-p {
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 992px) {
@@ -421,5 +452,41 @@ h1 {
         padding-top: 62px;
         padding-bottom: 63px;
         margin: 0 auto;
+    }
+
+    .footer-wrapper {
+        max-width: calc(375px - 68px);
+        margin-left: 38px;
+        padding-top: 24px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    .footer-contacts {
+        display: block;
+        margin-bottom: 49px;
+    }
+
+    .logo-white {
+        max-width: 54px;
+        margin-bottom: 14px;
+    }
+
+    .social {
+        max-width: 93px;
+        margin-bottom: 48px;
+    }
+    .contacts-p {
+        font-size: 12px;
+        margin-bottom: 1,6px;
+    }
+
+    .contacts-icon {
+        max-width: 13px;
+        margin-right: 10px;
+    }
+
+    .synch-p {
+        font-size: 10px;
     }
 }
