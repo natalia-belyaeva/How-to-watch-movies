@@ -10,8 +10,41 @@
     <link rel="stylesheet" href="style.css">
     <title>Как смотреть кино</title>
 </head>
+
 <body>
     <!-- Шапка сайт + верхний блок -->
+    <main>
+        <div class="wrapper">
+            <img src="images/logo.svg" alt="Logo" class="logo-header">
+            <div class="short-info">
+                <div class="icon-info-title">
+                    <img src="images/icons/globe.svg" alt="" class="head-icon">
+                    <p class="short-info-title">онлайн-курс</p>
+                </div>
+                <div class="icon-info-title">
+                    <img src="images/icons/watch.svg" alt="" class="head-icon">
+                    <p class="short-info-title">18 часов</p>
+                </div>
+                <div class="icon-info-title">
+                    <img src="images/icons/calendar.svg" alt="" class="head-icon">
+                    <p class="short-info-title">8 сентября</p>
+                </div>
+            </div>
+            <div class="cover">
+                <div class="cover-text">
+                    <h1 class="cover-text-title">Как смотреть кино</h1>
+                    <p class="main-subtitle">За 8 занятий станем активными зрителями и разберёмся в кинопроцессе</p>
+                </div>
+                <div class="mobile-screen">
+                    <div class="white-block"></div>
+                    <img src="images/speaker.svg" alt="" class="speaker">
+                </div>
+            </div>
+            <div class="callout">
+                <p class="callout-text">Зритель для меня не потребитель моей продукции, не судья, а соучастник творчества, соавтор.</p>
+                <p class="callout-author">Андрей Тарковский</p>
+            </div>
+        </div>
 
     <!-- О курсе -->
 
@@ -22,7 +55,7 @@
     <!-- Программа курса -->
     <section class="course-program">
 
-        <h2>Программа курса</h2>
+        <h2 class="program-course-name">Программа курса</h2>
 
         <div class="program">
 
@@ -31,7 +64,7 @@
                     <img class="program-image" src="Image/Cinema.jpg" alt="кино">
                 </div>
                 <div class="program-content">
-                    <h3>1. Как создают кино</h3>
+                    <h3 class="program-content-name">1. Как создают кино</h3>
                     <div class="program-date">8 сентября 20:00</div>
                     <div class="program-name">Данила Кузнецов</div>
                 </div>
@@ -42,7 +75,7 @@
                     <img class="program-image" src="Image/Dramatist.jpg" alt="драматург">
                 </div>
                 <div class="program-content">
-                    <h3>2. Взгляд драматурга</h3>
+                    <h3 class="program-content-name">2. Взгляд драматурга</h3>
                     <div class="program-date">10 сентября 20:00</div>
                     <div class="program-name">Данила Кузнецов</div>
                 </div>
@@ -53,7 +86,7 @@
                     <img class="program-image" src="Image/Producer.jpg" alt="режиссёр">
                 </div>
                 <div class="program-content">
-                    <h3>3. Взгляд режиссёра</h3>
+                    <h3 class="program-content-name">3. Взгляд режиссёра</h3>
                     <div class="program-date">13 сентября 13:00</div>
                     <div class="program-name">Данила Кузнецов</div>
                 </div>
@@ -64,7 +97,7 @@
                     <img class="program-image" src="Image/Editor.jpg" alt="монтажёр">
                 </div>
                 <div class="program-content">
-                    <h3>4. Взгляд монтажёра</h3>
+                    <h3 class="program-content-name">4. Взгляд монтажёра</h3>
                     <div class="program-date">15 сентября 20:00</div>
                     <div class="program-name">Данила Кузнецов</div>
                 </div>
@@ -75,7 +108,7 @@
                     <img class="program-image" src="Image/Genre.jpg" alt="жанр">
                 </div>
                 <div class="program-content">
-                    <h3>5. Жанры в кино</h3>
+                    <h3 class="program-content-name">5. Жанры в кино</h3>
                     <div class="program-date">17 сентября 20:00</div>
                     <div class="program-name">Данила Кузнецов</div>
                 </div>
@@ -86,7 +119,7 @@
                     <img class="program-image" src="Image/Lenguage.jpg" alt="язык кино">
                 </div>
                 <div class="program-content">
-                    <h3>6. Язык кино. Семинар</h3>
+                    <h3 class="program-content-name">6. Язык кино. Семинар</h3>
                     
                     <div class="program-date">20 сентября 13:00</div>
                     <div class="program-name">Данила Кузнецов</div>
@@ -99,7 +132,7 @@
                     <img class="program-image" src="Image/Critic.jpg" alt="кинокритик">
                 </div>
                 <div class="program-content">
-                    <h3>7. Взгляд кинокритика</h3>
+                    <h3 class="program-content-name">7. Взгляд кинокритика</h3>
                     
                     <div class="program-date">21 сентября 19:00</div>
                     <div class="program-name">Дмитрий Скворцов</div>
@@ -126,9 +159,48 @@
     </section>
 
     <!-- Курс прошло 1616 человек -->
+    </main>
 
     <!-- Начало курса -->
+    <div class="start-course">
+        <div class="start-course-wrapper">
+            <h2 class="start-course-h2">Начало курса — 8 сентября</h2>
+            <p class="start-course-price">Стоимость</p>
+            <h3 class="start-course-rub">3900 руб</h3>
+            <div>
+                <div class="start-course-bottom">
+                    <div class="any-level">
+                        <h4 class="start-course-h4">Для любого уровня</h4>
+                        <p class="start-course-text">Курс подходит и тем, кто начинает «с нуля», и тем, кто хочет упорядочить имеющиеся знания.
+                        </p>
+                    </div>
+                    <div class="come-now">
+                        <h4 class="start-course-h4">Проходите сейчас</h4>
+                        <p class="start-course-text">Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Футер -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-contacts">
+                <div class="logo-icons">
+                    <img class="logo-white" src="/images/logo_white.svg" alt="logo">
+                    <img class="social" src="/images/icons/social.svg" alt="social">
+                </div>
+                <div class="contacts">
+                    <p class="contacts-p"><img src="/images/icons/phone_white.svg" alt="phone" class="contacts-icon"> +7 (499) 39-146-39</p>
+                    <p class="contacts-p"><img src="/images/icons/mail_white.svg" alt="mail" class="contacts-icon"> hello@synchronize.ru</p>
+                </div>
+            </div>
+            <div class="synch">
+                <p class="synch-p">© Синхронизация, 2020</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
