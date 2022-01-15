@@ -1,3 +1,4 @@
+/* Общая информация  */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -7,7 +8,9 @@ h2, h3, h4, p {
     margin: 0;
     color: #000000;
 }
+/* общая информация - конец */
 
+/* <!-- Шапка сайт + верхний блок --> */
 .wrapper {
     max-width: calc(1440px - 240px);
     margin: 0 auto;
@@ -15,7 +18,7 @@ h2, h3, h4, p {
 }
 .course-program{
     max-width: calc(1440px - 122px);
-    margin: 0 auto;
+    margin: 102px auto;
     padding: 0 5px;
 }
 .program-course-name{
@@ -133,7 +136,7 @@ h1 {
 }
 
 .callout-text {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
     color: #FFFFFF;
     line-height: 130%;
@@ -148,7 +151,134 @@ h1 {
     max-width: 483px;
     margin: 4px 0 0 0;
 }
+/* <!-- Шапка сайт + верхний блок --> конец */
+/* Формат занятий + Что узнаем */
+.course-info {
+    font-family: roboto Slab;
+    font-size: 55px;
+    line-height: 101.38%;
+    max-width: 667px;
+    height: 93px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 975px;
+    margin-bottom: 250px;
+    margin-top: 89px;
+}
+
+.course-info-web {
+    max-width: 223px;
+}
+
+.course-info-access {
+    max-width: 271px;
+}
+
+.course-info-social {
+    max-width: 245px;
+}
+
+.course-info-header {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+    margin-bottom: 14px;
+}
+
+.course-info-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.course-info-list {
+    font-size: 24px;
+    line-height: 150%;
+    padding-left: 25px;
+    max-width: 662px;
+}
+/* <!-- Курс прошло 1616 человек --> */
+.feedback {
+    background: #EFEFEF;
+
+}
+.wrapper-feedback {
+    max-width: calc(1440px - 240px);
+    margin: 0 auto;
+    padding: 91px 111px 126px;
+
+}
+
+.feedback-h2 {
+    /* padding-top: 91px; */
+    /* margin: 0 0 78px 121px; */
+    /* margin:0 0 78px 0; */
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin: revert;
+    margin-top: 0;
+
+}
+.feedback-box {
+    max-width: 791px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 45px 21px;
+    box-sizing: border-box;
+}
+.feedback-text {
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 40px 45px 48px 45px; */
+    font-size: 20px;
+    line-height: 150%;
+    margin:revert;
+    margin-top: 0;
+    /* padding: 5px; */
+}
+.feedback-features {
+    display: flex;
+    /* max-width: 521px; */
+    /* margin-left: 30px;
+    margin-bottom: 38px; */
+}
+.feedback-personal-social {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* margin: auto;  */
+}
+.person {
+    max-width: 190px;
+    /* margin-left: 30px;
+    margin-bottom: 38px; */
+}
+.social-fb {
+    max-width: 32px;
+}
+.name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 101.38%;
+    font-weight: bold;
+    margin: revert;
+    /* margin-bottom: 30px; */
+}
+/* <!-- Курс прошло 1616 человек --> конец */
+/* <!-- Начало курса --> */
 .start-course {
     background-color: #9DC9C8;
 }
@@ -202,7 +332,8 @@ h1 {
 .come-now {
     max-width: 294px;
 }
-
+/* <!-- Начало курса --> конец*/
+/* <!-- Футер --> */
 .footer {
     background-color: #000000;
 }
@@ -250,7 +381,10 @@ h1 {
     color: white;
     font-size: 18px;
 }
+/* <!-- Футер --> конец */
 
+/* движ планшет */
+/* <!-- Шапка сайт + верхний блок --> */
 @media (min-width: 992px) and (max-width:1279px) {
     .wrapper {
         max-width: calc(834px - 140px);
@@ -321,7 +455,81 @@ h1 {
         max-width: 420px;
         margin-top: 4px;
     }
-
+    /* <!-- Шапка сайт + верхний блок --> конец*/
+    /* Формат занятий + Что узнаем  */
+    .course-info {
+        font-size: 32px;
+        max-width: 386px;
+        height: 54px;
+    }
+    .course-container {
+        max-width: 564px;
+        margin-top: 52px;
+        margin-bottom: 140px;
+    }
+    .course-info-header {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .course-info-text {
+        font-size: 11px;
+    }
+    .course-info-web {
+        max-width: 142px;
+    }
+    
+    .course-info-access {
+        max-width: 172px;
+    }
+    
+    .course-info-social {
+        max-width: 142px;
+    }
+    .course-info-list {
+        font-size: 14px;
+        padding-left: 20px;
+        max-width: 384px;
+    }
+    /* <!-- Курс прошло 1616 человек --> */
+    .wrapper-feedback {
+        padding: 53px 30px 73px 64px;
+        max-width: calc(834px - 140px);
+        margin: 0 auto;
+        /* margin: 53px 73px 64px; */
+    }
+    .feedback-h2 {
+        font-size: 32px;
+        line-height: 101.38%;
+        margin-top: 0;
+    }
+    .feedback-box {
+        max-width: 458px;
+        padding: 23px 26px 16px;
+    }
+    .feedback-text{
+        font-size: 12px;
+        line-height: 150%;
+        max-width: 405px;
+        /* margin: 23px 26px 20px; */
+    }
+    .person {
+        max-width: 110px;
+    }
+    .name {
+        font-size: 17px;
+        line-height: 101.38%;
+        margin-bottom: 18px;
+    }
+    .social-fb {
+        max-width: 18px;
+    }
+    .feedback-personal-social
+    {
+        margin-left: 18px;
+        /* margin: auto auto auto 0; */
+    }
+    /* <!-- Курс прошло 1616 человек -->конец */
+    /* <!-- Начало курса --> */
     .start-course-h2 {
         font-size: 32px;
         margin-bottom: 32px;
@@ -394,6 +602,7 @@ h1 {
     }
     .course-program{
         max-width: calc(846px - 87px);
+        margin: 40px auto;
     }
 
     .program-course-name{
@@ -430,7 +639,10 @@ h1 {
         line-height: 97%;
         margin-bottom: 3px;
     }
+
 }
+/* движ телефон */
+/* <!-- Шапка сайт + верхний блок --> */
 
 @media (max-width: 992px) {
     .wrapper {
@@ -510,13 +722,92 @@ h1 {
         max-width: 200px;
         margin-top: 5px;
     }
+/* <!-- Шапка сайт + верхний блок --> */
+/* Формат занятий + Что узнаем */
+.course-info {
+    font-size: 26px;
+    max-width: 310px;
+    height: 43px;
+}
+.course-container {
+    max-width: 564px;
+    margin-top: 17px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+.course-info-header {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.course-info-text {
+    font-size: 10px;
+}
+.course-info-web {
+    max-width: 180px;
+    margin-bottom: 22px;
+}
 
+.course-info-access {
+    max-width: 165px;
+    margin-bottom: 22px;
+}
+
+.course-info-social {
+    max-width: 160px;
+    margin-bottom: 22px;
+}
+.course-info-list {
+    font-size: 12px;
+    padding-left: 14px;
+    max-width: 299px;
+}
+ /* <!-- Курс прошло 1616 человек -->*/
+    .wrapper-feedback {
+        max-width: calc(375px - 64px);
+        padding: 42px 32px 53px 36px;
+        margin: 0 auto;
+        /* margin: 42px 32px 36px 53px; */
+    }
+    .feedback-h2 {
+    font-size: 26px;
+    line-height: 101.38%;
+    max-width: 257px;
+    margin-top:0;
+    /* padding: 0 83 0 0; */
+    /* padding-right: 11px; */
+    }
+    .feedback-box {
+        max-width: 308px;
+        box-sizing: border-box;
+        padding: 18px 21px 13px;
+    }
+    .feedback-text{
+        font-size: 10px;
+        line-height: 150%;
+        /* margin: 18px 21px; */
+    }
+    .person {
+        max-width: 80px;
+    }
+    .name {
+        font-size: 14px;
+        line-height: 101.38%;
+        margin-bottom: 14px;
+    }
+    .social-fb {
+        max-width: 15px;
+    }
+    .feedback-personal-social
+    {
+    margin-left: 13px;
+    }
+ /* <!-- Курс прошло 1616 человек -->конец */
+ /* <!-- Начало курса --> */
     .start-course-h2 {
         font-size: 26px;
         margin-bottom: 22px;
         max-width: 224px;
     }
-
     .start-course-price {
         font-size: 12px;
     }
@@ -587,18 +878,10 @@ h1 {
     .synch-p {
         font-size: 10px;
     }
-
-   
-    
-    .program-date,
-    .program-name{
-        font-size: 12px;
-        line-height: 15.6px;
-        letter-spacing: 0.2px;
-    }
+ 
     .course-program{
         max-width: calc(376px - 58px);
-
+        margin: 34px auto;
     }
 
     .program-course-name{
@@ -639,5 +922,6 @@ h1 {
         font-size: 12px;
         line-height: 15.6px;
         letter-spacing: 0.2px;
+
     }
 }
