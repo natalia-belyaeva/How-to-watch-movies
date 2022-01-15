@@ -430,7 +430,6 @@ h1 {
         padding-left: 20px;
         max-width: 384px;
     }
-}
     /* <!-- Курс прошло 1616 человек --> */
     .wrapper-feedback {
         padding: 53px 30px 73px 64px;
@@ -631,6 +630,7 @@ h1 {
     font-size: 12px;
     padding-left: 14px;
     max-width: 299px;
+}
  /* <!-- Курс прошло 1616 человек -->*/
     .wrapper-feedback {
         max-width: calc(375px - 64px);
