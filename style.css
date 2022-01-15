@@ -1,3 +1,4 @@
+/* Общая информация  */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -7,7 +8,9 @@ h2, h3, h4, p {
     margin: 0;
     color: #000000;
 }
+/* общая информация - конец */
 
+/* <!-- Шапка сайт + верхний блок --> */
 .wrapper {
     max-width: calc(1440px - 240px);
     margin: 0 auto;
@@ -88,7 +91,84 @@ h1 {
     max-width: 483px;
     margin: 4px 0 0 0;
 }
+/* <!-- Шапка сайт + верхний блок --> конец */
 
+/* <!-- Курс прошло 1616 человек --> */
+.feedback {
+    background: #EFEFEF;
+  
+}
+.wrapper-feedback {
+    max-width: calc(1440px - 240px);
+    margin: 0 auto;
+    padding: 91px 111px 126px;
+
+}
+
+.feedback-h2 {
+    /* padding-top: 91px; */
+    /* margin: 0 0 78px 121px; */
+    /* margin:0 0 78px 0; */
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin: revert;
+    margin-top: 0;
+
+}
+.feedback-box {
+    max-width: 791px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 45px 21px;
+    box-sizing: border-box;
+}
+.feedback-text {
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 40px 45px 48px 45px; */
+    font-size: 20px;
+    line-height: 150%;
+    margin:revert;
+    margin-top: 0;
+    /* padding: 5px; */
+}
+.feedback-features {
+    display: flex;
+    /* max-width: 521px; */
+    /* margin-left: 30px;
+    margin-bottom: 38px; */
+}
+.feedback-personal-social {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* margin: auto;  */
+}
+.person {
+    max-width: 190px;
+    /* margin-left: 30px;
+    margin-bottom: 38px; */
+}
+.social-fb {
+    max-width: 32px;
+}
+.name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 101.38%;
+    font-weight: bold;
+    margin: revert;
+    /* margin-bottom: 30px; */
+}
+/* <!-- Курс прошло 1616 человек --> конец */
+/* <!-- Начало курса --> */
 .start-course {
     background-color: #9DC9C8;
 }
@@ -142,7 +222,8 @@ h1 {
 .come-now {
     max-width: 294px;
 }
-
+/* <!-- Начало курса --> конец*/
+/* <!-- Футер --> */
 .footer {
     background-color: #000000;
 }
@@ -190,7 +271,10 @@ h1 {
     color: white;
     font-size: 18px;
 }
+/* <!-- Футер --> конец */
 
+/* движ планшет */
+/* <!-- Шапка сайт + верхний блок --> */
 @media (min-width: 992px) and (max-width:1279px) {
     .wrapper {
         max-width: calc(834px - 140px);
@@ -261,7 +345,47 @@ h1 {
         max-width: 420px;
         margin-top: 4px;
     }
-
+    /* <!-- Шапка сайт + верхний блок --> конец*/
+    /* <!-- Курс прошло 1616 человек --> */
+    .wrapper-feedback {
+        padding: 53px 30px 73px 64px;
+        max-width: calc(834px - 140px);
+        margin: 0 auto;
+        /* margin: 53px 73px 64px; */
+    }
+    .feedback-h2 {
+        font-size: 32px;
+        line-height: 101.38%;
+        margin-top: 0;
+    }
+    .feedback-box {
+        max-width: 458px;
+        padding: 23px 26px 16px;
+    }
+    .feedback-text{
+        font-size: 12px;
+        line-height: 150%;
+        max-width: 405px;
+        /* margin: 23px 26px 20px; */
+    }
+    .person {
+        max-width: 110px;
+    }
+    .name {
+        font-size: 17px;
+        line-height: 101.38%;
+        margin-bottom: 18px;
+    }
+    .social-fb {
+        max-width: 18px;
+    }
+    .feedback-personal-social
+    {
+        margin-left: 18px;
+        /* margin: auto auto auto 0; */
+    }
+    /* <!-- Курс прошло 1616 человек -->конец */
+    /* <!-- Начало курса --> */
     .start-course-h2 {
         font-size: 32px;
         margin-bottom: 32px;
@@ -301,40 +425,12 @@ h1 {
         padding-bottom: 107px;
         margin: 0 auto;
     }
-
-    .footer-wrapper {
-        max-width: 694px;
-        margin-left: 70px;
-        padding-top: 29px;
-        padding-bottom: 14px;
-        margin: 0 auto;
-    }
-
-    .logo-white {
-        max-width: 67px;
-        margin-bottom: 18px;
-    }
-
-    .social {
-        max-width: 115px;
-        margin-bottom: 85px;
-    }
-    .contacts-p {
-        font-size: 14px;
-        margin-bottom: 2px;
-    }
-
-    .contacts-icon {
-        max-width: 16px;
-        margin-right: 13px;
-    }
-
-    .synch-p {
-        font-size: 10px;
-    }
+    /* <!-- Начало курса --> конец */
 }
-
-@media (min-width: 320px) and (max-width: 992px) {
+/* движ телефон */
+/* <!-- Шапка сайт + верхний блок --> */
+@media  (max-width: 992px) {
+    
     .wrapper {
         max-width: calc(375px - 64px);
         padding: 27px 5px 5px 5px;
@@ -412,13 +508,54 @@ h1 {
         max-width: 200px;
         margin-top: 5px;
     }
-
+/* <!-- Шапка сайт + верхний блок --> */
+ /* <!-- Курс прошло 1616 человек -->*/
+    .wrapper-feedback {
+        max-width: calc(375px - 64px);
+        padding: 42px 32px 53px 36px;
+        margin: 0 auto;
+        /* margin: 42px 32px 36px 53px; */
+    }
+    .feedback-h2 {
+    font-size: 26px;
+    line-height: 101.38%;
+    max-width: 257px;
+    margin-top:0;
+    /* padding: 0 83 0 0; */
+    /* padding-right: 11px; */
+    }
+    .feedback-box {
+        max-width: 308px;
+        box-sizing: border-box;
+        padding: 18px 21px 13px;
+    }
+    .feedback-text{
+        font-size: 10px;
+        line-height: 150%;
+        /* margin: 18px 21px; */
+    }
+    .person {
+        max-width: 80px;
+    }
+    .name {
+        font-size: 14px;
+        line-height: 101.38%;
+        margin-bottom: 14px;
+    }
+    .social-fb {
+        max-width: 15px;
+    }
+    .feedback-personal-social
+    {
+    margin-left: 13px;
+    }
+ /* <!-- Курс прошло 1616 человек -->конец */
+ /* <!-- Начало курса --> */
     .start-course-h2 {
         font-size: 26px;
         margin-bottom: 22px;
         max-width: 224px;
     }
-
     .start-course-price {
         font-size: 12px;
     }
