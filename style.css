@@ -157,18 +157,18 @@ h1 {
     font-family: roboto Slab;
     font-size: 55px;
     line-height: 101.38%;
-    max-width: 667px;
-    height: 93px;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-bottom: 30px;
 }
 
 .course-container {
     display: flex;
     justify-content: space-between;
     max-width: 975px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     margin-top: 89px;
+}
+.course-format, .course-info-new {
+    padding: 70px 0;
 }
 
 .course-info-web {
@@ -459,13 +459,15 @@ h1 {
     /* Формат занятий + Что узнаем  */
     .course-info {
         font-size: 32px;
-        max-width: 386px;
-        height: 54px;
+        padding-bottom: 18px;
     }
     .course-container {
         max-width: 564px;
         margin-top: 52px;
-        margin-bottom: 140px;
+        margin-bottom: 80px;
+    }
+    .course-format, .course-info-new {
+        padding: 40px 0;
     }
     .course-info-header {
         font-size: 15px;
@@ -726,14 +728,16 @@ h1 {
 /* Формат занятий + Что узнаем */
 .course-info {
     font-size: 26px;
-    max-width: 310px;
-    height: 43px;
+    padding-bottom: 15px;
 }
 .course-container {
     max-width: 564px;
     margin-top: 17px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     flex-wrap: wrap;
+}
+.course-format, .course-info-new {
+    padding: 25px 0;
 }
 .course-info-header {
     font-size: 12px;
@@ -744,17 +748,17 @@ h1 {
 }
 .course-info-web {
     max-width: 180px;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .course-info-access {
     max-width: 165px;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .course-info-social {
     max-width: 160px;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 .course-info-list {
     font-size: 12px;
