@@ -2,3 +2,149 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.course-program{
+    max-width: calc(1440px - 122px);
+    margin: 0 auto;
+    padding: 0 5px;
+}
+h2{
+    font-family: Roboto Slab;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-left: 55.5px;
+    margin-bottom: 112px;
+}
+.program{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.program-image{
+    object-fit: cover;
+    width: 100%;
+} 
+
+.program-items{
+    width: calc(100%/3 - 38px);
+    margin: 19px 17px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    /* flex-grow: 1;
+    flex-basis: 200px; */
+    
+}
+.program-content{
+    padding: 0 0 23px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 187px);
+}
+
+h3{
+    margin: 11px 0 36px 1px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 104%;
+}
+.viewer{
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 104%;
+    margin-bottom: 5px;
+}
+.program-date,
+.program-name{
+    font-family: Roboto;
+    font-size: 25px;
+    line-height: 126%;
+}
+@media (min-width:992px) and (max-width: 1279px)  {
+    .course-program{
+        max-width: calc(846px - 87px);
+    }
+
+    h2{
+        font-size: 32px;
+        margin-bottom: 67px;;
+        line-height: 101.38%;
+        margin-left: 31px;
+    }
+      
+    .program-items{
+        width: calc(100%/3 - 21px);
+        margin: 12px 10px;
+        border-radius: 17.375px;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        
+    }
+    .program-content{
+        padding: 0 0 13.32px 11px;
+    }
+    h3{
+        margin: 3px 0 25px 2px;
+        font-size: 17px;
+        line-height: 97%;
+    }
+    .viewer{
+        font-size: 17px;
+        line-height: 97%;
+        margin-bottom: 6px;
+    }
+    
+    .program-date,
+    .program-name{
+        font-size: 14px;
+        line-height: 97%;
+        margin-bottom: 3px;
+    }
+}
+@media (max-width: 991px) {
+    .course-program{
+        max-width: calc(376px - 58px);
+
+    }
+
+    h2{
+        font-size: 26px;
+        margin-bottom: 43.66px;
+        line-height: 101.38%;
+        margin-left: 1px;
+        letter-spacing: 0.8px;
+    }
+    .program{
+        flex-direction:column;
+    }
+      
+    .program-items{
+        width: 185.92px;
+        margin: 13px auto;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+
+    }
+    .program-content{
+        padding: 0 0 10.72px 8.85px;
+    }
+    h3{
+        font-size: 14px;
+        line-height: 13.58px;
+        margin: 6.13px 0 17.91px 0;
+        letter-spacing: 0.3px;
+    }
+    .viewer{
+        font-size: 14px;
+        line-height: 13.58px;
+        margin-bottom: 4px;
+    }
+    
+    .program-date,
+    .program-name{
+        font-size: 12px;
+        line-height: 15.6px;
+        letter-spacing: 0.2px;
+    }
+}
