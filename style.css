@@ -121,6 +121,11 @@ h1 {
     margin-top: 29px;
 }
 
+.main-subtitle {
+    max-width: 414px;
+    margin-top: 19px;
+}
+
 .callout {
     max-width: 483.63px;
     height: 200.02px;
