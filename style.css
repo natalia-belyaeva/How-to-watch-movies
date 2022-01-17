@@ -21,9 +21,9 @@ h2, h3, h4, p {
     margin-top: 21px;
 }
 
-.about-course {
+/* .about-course {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .short-info {
@@ -92,6 +92,66 @@ h1 {
     margin: 4px 0 0 0;
 }
 /* <!-- Шапка сайт + верхний блок --> конец */
+/* О курсе */
+.about-course {
+    margin-bottom: 100px;
+}
+.about-course-block1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 57px;
+}
+.info p {
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 150%;
+}
+.about-course h2 {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 50px;
+}
+.info p:first-child {
+    margin-bottom: 1em;
+}
+.producer {
+    max-width: 366px;
+    /* margin-left: 164px; */
+}
+.producer_img {
+    width: 100%;
+}
+.about-course-block2 {
+    display: flex;
+    margin-bottom: 60px;
+}
+.director {
+    width: 100%;
+}
+.block_director {
+    max-width: 232px;
+}
+.block_duration {
+    font-size: 18px;
+    line-height: 130%;
+    width: 150px;
+}
+.block_duration h2 {
+    font-size: 25px;
+    line-height: 130%;
+}
+.duration {
+    width: 638px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: auto;
+}
+
+
 /* Формат занятий + Что узнаем */
 .course-info {
     font-family: roboto Slab;
