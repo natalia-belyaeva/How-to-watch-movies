@@ -1,160 +1,179 @@
+@charset "UTF-8";
 /* Общая информация  */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 h2, h3, h4, p {
-    margin: 0;
-    color: #000000;
+  margin: 0;
+  color: #000000;
 }
-/* общая информация - конец */
 
+/* общая информация - конец */
 /* <!-- Шапка сайт + верхний блок --> */
 .wrapper {
-    max-width: calc(1440px - 240px);
-    margin: 0 auto;
-    padding: 10px 30px 0px 30px;
-}
-.course-program{
-    max-width: calc(1440px - 122px);
-    margin: 102px auto;
-    padding: 0 5px;
-}
-.program-course-name{
-    font-family: Roboto Slab;
-    font-size: 55px;
-    line-height: 101.38%;
-    margin-left: 55.5px;
-    margin-bottom: 112px;
-}
-.program{
-    display: flex;
-    flex-wrap: wrap;
-
+  max-width: calc(1440px - 240px);
+  margin: 0 auto;
+  padding: 10px 30px 0px 30px;
 }
 
-.program-image{
-    object-fit: cover;
-    width: 100%;
+.course-program {
+  max-width: calc(1440px - 122px);
+  margin: 102px auto;
+  padding: 0 5px;
 }
 
-.program-items{
-    width: calc(100%/3 - 38px);
-    margin: 19px 17px;
-    border-radius: 30px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-
-
-}
-.program-content{
-    padding: 0 19px 23px 19px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: calc(100% - 187px);
+.program-course-name {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  line-height: 101.38%;
+  margin-left: 55.5px;
+  margin-bottom: 112px;
 }
 
-.program-content-name{
-    margin: 11px 0 36px 1px;
-    font-family: Roboto;
-    font-size: 30px;
-    line-height: 104%;
+.program {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-.viewer{
-    font-family: Roboto;
-    font-size: 30px;
-    line-height: 104%;
-    margin-bottom: 16px;
+
+.program-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
+
+.program-items {
+  width: calc(100%/3 - 38px);
+  margin: 19px 17px;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+.program-content {
+  padding: 0 19px 23px 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: calc(100% - 187px);
+}
+
+.program-content-name {
+  margin: 11px 0 36px 1px;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 104%;
+}
+
+.viewer {
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 104%;
+  margin-bottom: 16px;
+}
+
 .program-date,
-.program-name{
-    font-family: Roboto;
-    font-size: 25px;
-    line-height: 126%;
+.program-name {
+  font-family: Roboto;
+  font-size: 25px;
+  line-height: 126%;
 }
-
-
 
 .logo-header {
-    margin-top: 21px;
+  margin-top: 21px;
 }
-
- /* .about-course {
-    display: flex;
-    justify-content: space-between; */
-
-
 .short-info {
-    display: flex;
-    margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
 }
 
 .icon-info-title {
-    display: flex;
-    margin-top: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3px;
 }
 
 .short-info-title {
-    font-size: 20px;
-    line-height: 115%;
-    margin-left: 10px;
-    margin-right: 40px;
+  font-size: 20px;
+  line-height: 115%;
+  margin-left: 10px;
+  margin-right: 40px;
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    max-width: 628px;
-    font-size: 80px;
-    line-height: 101.38%;
-    margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  max-width: 628px;
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-bottom: 0;
 }
 
 .cover {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1073px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1073px;
 }
 
 .cover-text-title {
-    margin-top: 29px;
+  margin-top: 29px;
 }
 
 .main-subtitle {
-    max-width: 414px;
-    margin-top: 19px;
+  max-width: 414px;
+  margin-top: 19px;
 }
 
 .callout {
-    max-width: 483.63px;
-    height: 200.02px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: #1E4681 ;
-    border-radius: 5px;
-    margin-left: 288px;
-    margin-bottom: 173px;
-    margin-top: 68px;
-    padding: 20px 31px 20px 31px;
-    box-sizing: border-box;
+  max-width: 483.63px;
+  height: 200.02px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #1E4681;
+  border-radius: 5px;
+  margin-left: 288px;
+  margin-bottom: 173px;
+  margin-top: 68px;
+  padding: 20px 31px 20px 31px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .callout-text {
-    font-family: 'Roboto Slab', serif;
-    font-size: 25px;
-    color: #FFFFFF;
-    line-height: 130%;
-    max-width: 420px;
-    margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  line-height: 130%;
+  max-width: 420px;
+  margin: 0 auto;
 }
 
 .callout-author {
-    font-size: 20px;
-    text-align: right;
-    color: #FFFFFF;
-    max-width: 483px;
-    margin: 4px 0 0 0;
+  font-size: 20px;
+  text-align: right;
+  color: #FFFFFF;
+  max-width: 483px;
+  margin: 4px 0 0 0;
 }
+
 /* <!-- Шапка сайт + верхний блок --> конец */
 /* О курсе */
 .about-course {
@@ -220,308 +239,338 @@ h1 {
 
 /* Формат занятий + Что узнаем */
 .course-info {
-    font-family: roboto Slab;
-    font-size: 55px;
-    line-height: 101.38%;
-    padding-bottom: 30px;
+  font-family: roboto Slab;
+  font-size: 55px;
+  line-height: 101.38%;
+  padding-bottom: 30px;
 }
 
 .course-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 975px;
-    margin-bottom: 150px;
-    margin-top: 89px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 975px;
+  margin-bottom: 150px;
+  margin-top: 89px;
 }
+
 .course-format, .course-info-new {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
 .course-info-web {
-    max-width: 223px;
+  max-width: 223px;
 }
 
 .course-info-access {
-    max-width: 271px;
+  max-width: 271px;
 }
 
 .course-info-social {
-    max-width: 245px;
+  max-width: 245px;
 }
 
 .course-info-header {
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 130%;
-    color: #1E4681;
-    margin-bottom: 14px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 130%;
+  color: #1E4681;
+  margin-bottom: 14px;
 }
 
 .course-info-text {
-    margin: 0;
-    font-size: 18px;
-    line-height: 130%;
+  margin: 0;
+  font-size: 18px;
+  line-height: 130%;
 }
 
 .course-info-list {
-    font-size: 24px;
-    line-height: 150%;
-    padding-left: 25px;
-    max-width: 662px;
+  font-size: 24px;
+  line-height: 150%;
+  padding-left: 25px;
+  max-width: 662px;
 }
+
 /* <!-- Курс прошло 1616 человек --> */
 .feedback {
-    background: #EFEFEF;
-
+  background: #EFEFEF;
 }
-.wrapper-feedback {
-    max-width: calc(1440px - 240px);
-    margin: 0 auto;
-    padding: 91px 111px 126px;
 
+.wrapper-feedback {
+  max-width: calc(1440px - 240px);
+  margin: 0 auto;
+  padding: 91px 5px 126px;
 }
 
 .feedback-h2 {
-    /* padding-top: 91px; */
-    /* margin: 0 0 78px 121px; */
-    /* margin:0 0 78px 0; */
-    font-family: Roboto Slab;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
-    margin: revert;
-    margin-top: 0;
+  /* padding-top: 91px; */
+  /* margin: 0 0 78px 121px; */
+  /* margin:0 0 78px 0; */
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin: revert;
+  margin-top: 0;
+}
 
-}
 .feedback-box {
-    max-width: 791px;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 40px 45px 21px;
-    box-sizing: border-box;
+  max-width: 791px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 45px 21px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 .feedback-text {
-    max-width: 700px;
-    font-family: 'Roboto', sans-serif;
-    /* margin: 40px 45px 48px 45px; */
-    font-size: 20px;
-    line-height: 150%;
-    margin:revert;
-    margin-top: 0;
-    /* padding: 5px; */
+  max-width: 700px;
+  font-family: 'Roboto', sans-serif;
+  /* margin: 40px 45px 48px 45px; */
+  font-size: 20px;
+  line-height: 150%;
+  margin: revert;
+  margin-top: 0;
+  /* padding: 5px; */
 }
+
 .feedback-features {
-    display: flex;
-    /* max-width: 521px; */
-    /* margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* max-width: 521px; */
+  /* margin-left: 30px;
     margin-bottom: 38px; */
 }
+
 .feedback-personal-social {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    /* margin: auto;  */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30px;
+  /* margin: auto;  */
 }
+
 .person {
-    max-width: 190px;
-    /* margin-left: 30px;
+  max-width: 190px;
+  /* margin-left: 30px;
     margin-bottom: 38px; */
 }
+
 .social-fb {
-    max-width: 32px;
+  max-width: 32px;
 }
+
 .name {
-    font-family: 'Roboto Slab', serif;
-    font-size: 30px;
-    line-height: 101.38%;
-    font-weight: bold;
-    margin: revert;
-    /* margin-bottom: 30px; */
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  line-height: 101.38%;
+  font-weight: bold;
+  margin: revert;
+  /* margin-bottom: 30px; */
 }
+
 /* <!-- Курс прошло 1616 человек --> конец */
 /* <!-- Начало курса --> */
 .start-course {
-    background-color: #9DC9C8;
+  background-color: #9DC9C8;
 }
 
 .start-course-wrapper {
-    max-width: calc(1440px - 240px);
-    margin-left: 122px;
-    padding-top: 179px;
-    padding-bottom: 185px;
-    margin: 0 auto;
+  max-width: calc(1440px - 240px);
+  margin-left: 122px;
+  padding-top: 179px;
+  padding-bottom: 185px;
+  margin: 0 auto;
 }
 
 .start-course-h2 {
-    font-family: Roboto Slab;
-    font-size: 55px;
-    font-weight: 700;
-    margin-bottom: 54px;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 54px;
 }
 
 .start-course-price {
-    font-weight: 400;
-    font-size: 25px;
+  font-weight: 400;
+  font-size: 25px;
 }
 
 .start-course-rub {
-    font-weight: 400;
-    font-size: 80px;
-    margin-bottom: 80px;
+  font-weight: 400;
+  font-size: 80px;
+  margin-bottom: 80px;
 }
 
 .start-course-bottom {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .any-level {
-    margin-right: 70px;
-    max-width: 294px;
+  margin-right: 70px;
+  max-width: 294px;
 }
 
 .start-course-h3 {
-    font-weight: 400;
-    font-size: 25px;
-    margin-bottom: 9px;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 9px;
 }
 
 .start-course-text {
-    font-weight: 400;
-    font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .come-now {
-    max-width: 294px;
+  max-width: 294px;
 }
+
 /* <!-- Начало курса --> конец*/
 /* <!-- Футер --> */
 .footer {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .footer-wrapper {
-    max-width: calc(1440px - 240px);
-    margin-left: 122px;
-    padding-top: 50px;
-    padding-bottom: 47px;
-    margin: 0 auto;
+  max-width: calc(1440px - 240px);
+  margin-left: 122px;
+  padding-top: 50px;
+  padding-bottom: 47px;
+  margin: 0 auto;
 }
 
 .footer-contacts {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 85px;
 }
 
 .logo-icons {
-    display: flex;
-    flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .logo-white {
-    max-width: 198px;
-    margin-bottom: 28px;
+  max-width: 115px;
+  margin-bottom: 28px;
 }
 
 .social {
-    width: 35px;
-    margin-right: 20px;
+  width: 35px;
+  margin-right: 20px;
 }
+
 .contacts-p {
-    color: white;
-    font-size: 25px;
-    margin-bottom: 3px;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 3px;
 }
 
 .contacts-icon {
-    max-width: 27px;
-    margin-right: 22px;
+  max-width: 27px;
+  margin-right: 22px;
 }
 
 .synch-p {
-    color: white;
-    font-size: 18px;
+  color: white;
+  font-size: 18px;
 }
-/* <!-- Футер --> конец */
 
+/* <!-- Футер --> конец */
 /* движ планшет */
 /* <!-- Шапка сайт + верхний блок --> */
-@media (min-width: 992px) and (max-width:1279px) {
-    .wrapper {
-        max-width: calc(834px - 140px);
-        padding-top: 13px;
-    }
-
-    .logo-header {
-        max-width: 65px;
-        margin-top: 0;
-    }
-
-    .short-info {
-        font-size: 12px;
-        margin-top: 56px;
-    }
-
-    .head-icon {
-        max-height: 13px;
-    }
-
-    .short-info-title {
-        font-size: 12px;
-        margin: 0 18px 0 5px;
-    }
-
-    .cover-text-title {
-        max-width: 364px;
-        font-size: 46px;
-        margin-bottom: 0;
-        margin-top: 8px;
-    }
-
-    .cover {
-        max-width: 621px;
-    }
-
-    .speaker {
-        max-width: 176px;
-    }
-
-    .main-subtitle {
-        font-size: 12px;
-        line-height: 150%;
-        margin-top: 21px;
-        max-width: 264px;
-    }
-
-    .callout {
-        max-width: 280px;
-        height: 116px;
-        border-radius: 2.9px;
-        margin-bottom: 100px;
-        margin: 0 auto;
-        margin-top: 39px;
-        padding: 11px 15px 11px 15px;
-    }
-
-    .callout-text {
-        font-size: 14px;
-        max-width: 240px;
-        padding: 0;
-        margin: 0;
-        line-height: 130%;
-    }
-
-    .callout-author {
-        font-size: 12px;
-        max-width: 420px;
-        margin-top: 4px;
-    }
-    /* <!-- Шапка сайт + верхний блок --> конец*/
+@media (min-width: 992px) and (max-width: 1279px) {
+  .wrapper {
+    max-width: calc(834px - 140px);
+    padding-top: 13px;
+  }
+  .logo-header {
+    max-width: 65px;
+    margin-top: 0;
+  }
+  .short-info {
+    font-size: 12px;
+    margin-top: 56px;
+  }
+  .head-icon {
+    max-height: 13px;
+  }
+  .short-info-title {
+    font-size: 12px;
+    margin: 0 18px 0 5px;
+  }
+  .cover-text-title {
+    max-width: 364px;
+    font-size: 46px;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  .cover {
+    max-width: 621px;
+  }
+  .speaker {
+    max-width: 176px;
+  }
+  .main-subtitle {
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 21px;
+    max-width: 264px;
+  }
+  .callout {
+    max-width: 280px;
+    height: 116px;
+    border-radius: 2.9px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    margin-top: 39px;
+    padding: 11px 15px 11px 15px;
+  }
+  .callout-text {
+    font-size: 14px;
+    max-width: 240px;
+    padding: 0;
+    margin: 0;
+    line-height: 130%;
+  }
+  .callout-author {
+    font-size: 12px;
+    max-width: 420px;
+    margin-top: 4px;
+  }
+  /* <!-- Шапка сайт + верхний блок --> конец*/
    /* о курсе */
    .block_director {
     display: none;
@@ -553,522 +602,480 @@ h1 {
         width: 383px;
     }
    /* о курсе */
-    /* Формат занятий + Что узнаем  */
-    .course-info {
-        font-size: 32px;
-        padding-bottom: 18px;
-    }
-    .course-container {
-        max-width: 564px;
-        margin-top: 52px;
-        margin-bottom: 80px;
-    }
-    .course-format, .course-info-new {
-        padding: 40px 0;
-    }
-    .course-info-header {
-        font-size: 15px;
-        margin-bottom: 5px;
-    }
-    .course-info-text {
-        font-size: 11px;
-    }
-    .course-info-web {
-        max-width: 142px;
-    }
-
-    .course-info-access {
-        max-width: 172px;
-    }
-
-    .course-info-social {
-        max-width: 142px;
-    }
-    .course-info-list {
-        font-size: 14px;
-        padding-left: 20px;
-        max-width: 384px;
-    }
-    /* <!-- Курс прошло 1616 человек --> */
-    .wrapper-feedback {
-        padding: 53px 30px 73px 64px;
-        max-width: calc(834px - 140px);
-        margin: 0 auto;
-        /* margin: 53px 73px 64px; */
-    }
-    .feedback-h2 {
-        font-size: 32px;
-        line-height: 101.38%;
-        margin-top: 0;
-    }
-    .feedback-box {
-        max-width: 458px;
-        padding: 23px 26px 16px;
-    }
-    .feedback-text{
-        font-size: 12px;
-        line-height: 150%;
-        max-width: 405px;
-        /* margin: 23px 26px 20px; */
-    }
-    .person {
-        max-width: 110px;
-    }
-    .name {
-        font-size: 17px;
-        line-height: 101.38%;
-        margin-bottom: 18px;
-    }
-    .social-fb {
-        max-width: 18px;
-    }
-    .feedback-personal-social
-    {
-        margin-left: 18px;
-        /* margin: auto auto auto 0; */
-    }
-    /* <!-- Курс прошло 1616 человек -->конец */
-    /* <!-- Начало курса --> */
-    .start-course-h2 {
-        font-size: 32px;
-        margin-bottom: 32px;
-    }
-
-    .start-course-price {
-        font-size: 14px;
-    }
-
-    .start-course-rub {
-        font-size: 46px;
-        margin-bottom: 40px;
-    }
-
-    .start-course-h3 {
-        font-size: 14px;
-        margin-bottom: 9px;
-    }
-
-    .start-course-text {
-        font-size: 10px;
-    }
-
-    .any-level {
-        margin-right: 40px;
-        max-width: 170px;
-    }
-
-    .come-now {
-        max-width: 170px;
-    }
-
-    .start-course-wrapper {
-        max-width: 694px;
-        margin-left: 70px;
-        padding-top: 103px;
-        padding-bottom: 107px;
-        margin: 0 auto;
-    }
-
-    .footer-wrapper {
-        max-width: 694px;
-        margin-left: 70px;
-        padding-top: 29px;
-        padding-bottom: 14px;
-        margin: 0 auto;
-    }
-
-    .logo-white {
-        max-width: 67px;
-        margin-bottom: 18px;
-    }
-
-    .social {
-        width: 19px;
-        margin-right: 10px;
-    }
-    .contacts-p {
-        font-size: 14px;
-        margin-bottom: 2px;
-    }
-
-    .contacts-icon {
-        max-width: 16px;
-        margin-right: 13px;
-    }
-
-    .synch-p {
-        font-size: 10px;
-    }
-    .course-program{
-        max-width: calc(846px - 87px);
-        margin: 40px auto;
-    }
-
-    .program-course-name{
-        font-size: 32px;
-        margin-bottom: 67px;;
-        line-height: 101.38%;
-        margin-left: 31px;
-    }
-
-    .program-items{
-        width: calc(100%/3 - 21px);
-        margin: 12px 10px;
-        border-radius: 17.375px;
-        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-
-    }
-    .program-content{
-        padding: 0 11px 13.32px 11px;
-    }
-    .program-content-name{
-        margin: 3px 0 25px 2px;
-        font-size: 17px;
-        line-height: 97%;
-    }
-    .viewer{
-        font-size: 17px;
-        line-height: 97%;
-        margin-bottom: 6px;
-    }
-
-    .program-date,
-    .program-name{
-        font-size: 14px;
-        line-height: 97%;
-        margin-bottom: 3px;
-    }
-
+  /* Формат занятий + Что узнаем  */
+  .course-info {
+    font-size: 32px;
+    padding-bottom: 18px;
+  }
+  .course-container {
+    max-width: 564px;
+    margin-top: 52px;
+    margin-bottom: 80px;
+  }
+  .course-format, .course-info-new {
+    padding: 40px 0;
+  }
+  .course-info-header {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .course-info-text {
+    font-size: 11px;
+  }
+  .course-info-web {
+    max-width: 142px;
+  }
+  .course-info-access {
+    max-width: 172px;
+  }
+  .course-info-social {
+    max-width: 142px;
+  }
+  .course-info-list {
+    font-size: 14px;
+    padding-left: 20px;
+    max-width: 384px;
+  }
+  /* <!-- Курс прошло 1616 человек --> */
+  .wrapper-feedback {
+    padding: 53px 5px 64px;
+    max-width: calc(834px - 140px);
+    margin: 0 auto;
+    /* margin: 53px 73px 64px; */
+  }
+  .feedback-h2 {
+    font-size: 32px;
+    line-height: 101.38%;
+    margin-top: 0;
+  }
+  .feedback-box {
+    max-width: 458px;
+    padding: 23px 26px 16px;
+  }
+  .feedback-text {
+    font-size: 12px;
+    line-height: 150%;
+    max-width: 405px;
+    /* margin: 23px 26px 20px; */
+  }
+  .person {
+    max-width: 110px;
+  }
+  .name {
+    font-size: 17px;
+    line-height: 101.38%;
+    margin-bottom: 18px;
+  }
+  .social-fb {
+    max-width: 18px;
+  }
+  .feedback-personal-social {
+    margin-left: 18px;
+    /* margin: auto auto auto 0; */
+  }
+  /* <!-- Курс прошло 1616 человек -->конец */
+  /* <!-- Начало курса --> */
+  .start-course-h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .start-course-price {
+    font-size: 14px;
+  }
+  .start-course-rub {
+    font-size: 46px;
+    margin-bottom: 40px;
+  }
+  .start-course-h3 {
+    font-size: 14px;
+    margin-bottom: 9px;
+  }
+  .start-course-text {
+    font-size: 10px;
+  }
+  .any-level {
+    margin-right: 40px;
+    max-width: 170px;
+  }
+  .come-now {
+    max-width: 170px;
+  }
+  .start-course-wrapper {
+    max-width: 694px;
+    margin-left: 70px;
+    padding-top: 103px;
+    padding-bottom: 107px;
+    margin: 0 auto;
+  }
+  .footer-wrapper {
+    max-width: 694px;
+    margin-left: 70px;
+    padding-top: 29px;
+    padding-bottom: 14px;
+    margin: 0 auto;
+  }
+  .logo-white {
+    max-width: 67px;
+    margin-bottom: 18px;
+  }
+  .social {
+    width: 19px;
+    margin-right: 10px;
+  }
+  .contacts-p {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .contacts-icon {
+    max-width: 16px;
+    margin-right: 13px;
+  }
+  .synch-p {
+    font-size: 10px;
+  }
+  .course-program {
+    max-width: calc(846px - 87px);
+    margin: 40px auto;
+  }
+  .program-course-name {
+    font-size: 32px;
+    margin-bottom: 67px;
+    line-height: 101.38%;
+    margin-left: 31px;
+  }
+  .program-items {
+    width: calc(100%/3 - 21px);
+    margin: 12px 10px;
+    border-radius: 17.375px;
+    -webkit-box-shadow: 0.57917px 0.57917px 8.6875px rgba(0, 0, 0, 0.25);
+            box-shadow: 0.57917px 0.57917px 8.6875px rgba(0, 0, 0, 0.25);
+  }
+  .program-content {
+    padding: 0 11px 13.32px 11px;
+  }
+  .program-content-name {
+    margin: 3px 0 25px 2px;
+    font-size: 17px;
+    line-height: 97%;
+  }
+  .viewer {
+    font-size: 17px;
+    line-height: 97%;
+    margin-bottom: 6px;
+  }
+  .program-date,
+  .program-name {
+    font-size: 14px;
+    line-height: 97%;
+    margin-bottom: 3px;
+  }
 }
+
 /* движ телефон */
 /* <!-- Шапка сайт + верхний блок --> */
-
 @media (max-width: 992px) {
-    .wrapper {
-        max-width: calc(375px - 64px);
-        padding: 27px 5px 5px 5px;
-        margin: 0 auto;
-    }
+  .wrapper {
+    max-width: calc(375px - 64px);
+    padding: 27px 5px 5px 5px;
+    margin: 0 auto;
+  }
+  .logo-header {
+    max-width: 52px;
+    margin-top: 0;
+  }
+  .short-info {
+    margin-top: 45px;
+  }
+  .head-icon {
+    max-height: 10px;
+  }
+  .short-info-title {
+    font-size: 10px;
+    margin: 0 12px 0 3px;
+  }
+  .cover {
+    display: block;
+  }
+  .cover-text-title {
+    max-width: 266px;
+    font-size: 37px;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  .mobile-screen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .white-block {
+    display: block;
+  }
+  .speaker {
+    max-width: 142px;
+  }
+  .main-subtitle {
+    font-size: 10px;
+    margin-top: 17px;
+    margin-bottom: 0;
+    max-width: 212px;
+  }
+  .callout {
+    max-width: 225px;
+    border-radius: 2.33px;
+    margin-bottom: 75px;
+    margin-left: 0;
+    margin-top: 39px;
+    padding: 10px 14px 10px 14px;
+    height: 95px;
+  }
+  .callout-text {
+    font-size: 11px;
+    max-width: 190px;
+    padding: 0;
+    margin: 0;
+  }
+  .callout-author {
+    font-size: 10px;
+    max-width: 200px;
+    margin-top: 5px;
+  }
+  /* <!-- Шапка сайт + верхний блок --> */
+  /* о курсе */
+  .block_director {
+    display: none;
+}
+.about-course-block1 {
+    flex-wrap: wrap;
+    margin-bottom: 45.71px;
+}
+.about-course h2 {
+    font-size: 26px;
+    line-height: 101.38%;
+}
+.info p {
+    font-size: 12px;
+    line-height: 150%;
+    margin-bottom: 16px;        
+}
+.producer {
+    max-width: 170.55px;
+    margin: 0 auto;
+}
+.duration {
+    flex-wrap: wrap;
+}
+.about-course-block2 h2 {
+    font-size: 12px;
+    line-height: 130%;
+}
+.about-course-block2 p {
+    font-size: 10px;
+    line-height: 130%;
+    width: 86px;        
+}
+.about-course-block2 {
+    margin-right: 33.33px;
+}
 
-    .logo-header {
-        max-width: 52px;
-        margin-top: 0;
-    }
 
-    .short-info {
-        margin-top: 45px;
-    }
+.block_duration {
+    font-size: 18px;
+    line-height: 130%;
+    width: 87px;
+    margin-right: 33px;
+    margin-bottom: 34px;
+}
 
-    .head-icon {
-        max-height: 10px;
-    }
-
-    .short-info-title {
-        font-size: 10px;
-        margin: 0 12px 0 3px;
-    }
-
-    .cover {
-        display: block;
-    }
-
-    .cover-text-title {
-        max-width: 266px;
-        font-size: 37px;
-        margin-bottom: 0;
-        margin-top: 8px;
-    }
-
-    .mobile-screen {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .white-block{
-        display: block;
-    }
-
-    .speaker {
-        max-width: 142px;
-    }
-
-    .main-subtitle {
-        font-size: 10px;
-        margin-top: 17px;
-        margin-bottom: 0;
-        max-width: 212px;
-    }
-
-    .callout {
-        max-width: 225px;
-        border-radius: 2.33px;
-        margin-bottom: 75px;
-        margin-left: 0;
-        margin-top: 39px;
-        padding: 10px 14px 10px 14px;
-        height: 95px;
-    }
-
-    .callout-text {
-        font-size: 11px;
-        max-width: 190px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .callout-author {
-        font-size: 10px;
-        max-width: 200px;
-        margin-top: 5px;
-    }
-/* <!-- Шапка сайт + верхний блок --> */
-/* о курсе */
-    .block_director {
-        display: none;
-    }
-    .about-course-block1 {
-        flex-wrap: wrap;
-        margin-bottom: 45.71px;
-    }
-    .about-course h2 {
-        font-size: 26px;
-        line-height: 101.38%;
-    }
-    .info p {
-        font-size: 12px;
-        line-height: 150%;
-        margin-bottom: 16px;        
-    }
-    .producer {
-        max-width: 170.55px;
-        margin: 0 auto;
-    }
-    .duration {
-        flex-wrap: wrap;
-    }
-    .about-course-block2 h2 {
-        font-size: 12px;
-        line-height: 130%;
-    }
-    .about-course-block2 p {
-        font-size: 10px;
-        line-height: 130%;
-        width: 86px;        
-    }
-    .about-course-block2 {
-        margin-right: 33.33px;
-    }
-    
-
-    .block_duration {
-        font-size: 18px;
-        line-height: 130%;
-        width: 87px;
-        margin-right: 33px;
-        margin-bottom: 34px;
-    }
-
-/* Формат занятий + Что узнаем */
-.course-info {
+  /* Формат занятий + Что узнаем */
+  .course-info {
     font-size: 26px;
     padding-bottom: 15px;
-}
-.course-container {
+  }
+  .course-container {
     max-width: 564px;
     margin-top: 17px;
     margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-.course-format, .course-info-new {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .course-format, .course-info-new {
     padding: 25px 0;
-}
-.course-info-header {
+  }
+  .course-info-header {
     font-size: 12px;
     margin-bottom: 3px;
-}
-.course-info-text {
+  }
+  .course-info-text {
     font-size: 10px;
-}
-.course-info-web {
+  }
+  .course-info-web {
     max-width: 180px;
     margin-bottom: 30px;
-}
-
-.course-info-access {
+  }
+  .course-info-access {
     max-width: 165px;
     margin-bottom: 30px;
-}
-
-.course-info-social {
+  }
+  .course-info-social {
     max-width: 160px;
     margin-bottom: 30px;
-}
-.course-info-list {
+  }
+  .course-info-list {
     font-size: 12px;
     padding-left: 14px;
     max-width: 299px;
-}
- /* <!-- Курс прошло 1616 человек -->*/
-    .wrapper-feedback {
-        max-width: calc(375px - 64px);
-        padding: 42px 32px 53px 36px;
-        margin: 0 auto;
-        /* margin: 42px 32px 36px 53px; */
-    }
-    .feedback-h2 {
+  }
+  /* <!-- Курс прошло 1616 человек -->*/
+  .wrapper-feedback {
+    max-width: calc(375px - 64px);
+    padding: 42px 5px 36px;
+    margin: 0 auto;
+    /* margin: 42px 32px 36px 53px; */
+  }
+  .feedback-h2 {
     font-size: 26px;
     line-height: 101.38%;
     max-width: 257px;
-    margin-top:0;
+    margin-top: 0;
     /* padding: 0 83 0 0; */
     /* padding-right: 11px; */
-    }
-    .feedback-box {
-        max-width: 308px;
-        box-sizing: border-box;
-        padding: 18px 21px 13px;
-    }
-    .feedback-text{
-        font-size: 10px;
-        line-height: 150%;
-        /* margin: 18px 21px; */
-    }
-    .person {
-        max-width: 80px;
-    }
-    .name {
-        font-size: 14px;
-        line-height: 101.38%;
-        margin-bottom: 14px;
-    }
-    .social-fb {
-        max-width: 15px;
-    }
-    .feedback-personal-social
-    {
+  }
+  .feedback-box {
+    max-width: 308px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 18px 21px 13px;
+  }
+  .feedback-text {
+    font-size: 10px;
+    line-height: 150%;
+    /* margin: 18px 21px; */
+  }
+  .person {
+    max-width: 80px;
+  }
+  .name {
+    font-size: 14px;
+    line-height: 101.38%;
+    margin-bottom: 14px;
+  }
+  .social-fb {
+    max-width: 15px;
+  }
+  .feedback-personal-social {
     margin-left: 13px;
-    }
- /* <!-- Курс прошло 1616 человек -->конец */
- /* <!-- Начало курса --> */
-    .start-course-h2 {
-        font-size: 26px;
-        margin-bottom: 22px;
-        max-width: 224px;
-    }
-    .start-course-price {
-        font-size: 12px;
-    }
-
-    .start-course-rub {
-        font-size: 37px;
-        margin-bottom: 38px;
-    }
-
-    .start-course-h3 {
-        font-size: 12px;
-        margin-bottom: 5px;
-    }
-
-    .start-course-text {
-        font-size: 10px;
-    }
-
-    .any-level {
-        margin-right: 31px;
-        max-width: 138px;
-    }
-
-    .come-now {
-        max-width: 138px;
-    }
-
-    .start-course-wrapper {
-        max-width: calc(375px - 68px);
-        margin-left: 35px;
-        padding-top: 62px;
-        padding-bottom: 63px;
-        margin: 0 auto;
-    }
-
-    .footer-wrapper {
-        max-width: calc(375px - 68px);
-        margin-left: 38px;
-        padding-top: 24px;
-        padding-bottom: 10px;
-        margin: 0 auto;
-    }
-
-    .footer-contacts {
-        display: block;
-    }
-
-    .logo-white {
-        max-width: 54px;
-        margin-bottom: 14px;
-    }
-
-    .social {
-        width: 15px;
-        margin-right: 9px;
-        margin-bottom: 48px;
-    }
-    .contacts-p {
-        font-size: 12px;
-        margin-bottom: 1,6px;
-    }
-
-    .contacts-icon {
-        max-width: 13px;
-        margin-right: 10px;
-    }
-
-    .synch-p {
-        font-size: 10px;
-    }
-
-    .course-program{
-        max-width: calc(376px - 58px);
-        margin: 34px auto;
-    }
-
-    .program-course-name{
-        font-size: 26px;
-        margin-bottom: 43.66px;
-        line-height: 101.38%;
-        margin-left: 1px;
-        letter-spacing: 0.8px;
-    }
-    .program{
-        flex-direction:column;
-    }
-
-    .program-items{
-        width: 185.92px;
-        margin: 13px auto;
-        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-        border-radius: 13.9792px;
-
-    }
-    .program-content{
-        padding: 0 8.85 10.72px 8.85px;
-    }
-    .program-content-name{
-        font-size: 14px;
-        line-height: 13.58px;
-        margin: 6.13px 0 17.91px 0;
-        letter-spacing: 0.3px;
-    }
-    .viewer{
-        font-size: 14px;
-        line-height: 13.58px;
-        margin-bottom: 4px;
-    }
-
-    .program-date,
-    .program-name{
-        font-size: 12px;
-        line-height: 15.6px;
-        letter-spacing: 0.2px;
-
-    }
+  }
+  /* <!-- Курс прошло 1616 человек -->конец */
+  /* <!-- Начало курса --> */
+  .start-course-h2 {
+    font-size: 26px;
+    margin-bottom: 22px;
+    max-width: 224px;
+  }
+  .start-course-price {
+    font-size: 12px;
+  }
+  .start-course-rub {
+    font-size: 37px;
+    margin-bottom: 38px;
+  }
+  .start-course-h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .start-course-text {
+    font-size: 10px;
+  }
+  .any-level {
+    margin-right: 31px;
+    max-width: 138px;
+  }
+  .come-now {
+    max-width: 138px;
+  }
+  .start-course-wrapper {
+    max-width: calc(375px - 68px);
+    margin-left: 35px;
+    padding-top: 62px;
+    padding-bottom: 63px;
+    margin: 0 auto;
+  }
+  .footer-wrapper {
+    max-width: calc(375px - 68px);
+    margin-left: 38px;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+  .footer-contacts {
+    display: block;
+  }
+  .logo-white {
+    max-width: 54px;
+    margin-bottom: 14px;
+  }
+  .social {
+    width: 15px;
+    margin-right: 9px;
+    margin-bottom: 48px;
+  }
+  .contacts-p {
+    font-size: 12px;
+    margin-bottom: 1,6px;
+  }
+  .contacts-icon {
+    max-width: 13px;
+    margin-right: 10px;
+  }
+  .synch-p {
+    font-size: 10px;
+  }
+  .course-program {
+    max-width: calc(376px - 58px);
+    margin: 34px auto;
+  }
+  .program-course-name {
+    font-size: 26px;
+    margin-bottom: 43.66px;
+    line-height: 101.38%;
+    margin-left: 1px;
+    letter-spacing: 0.8px;
+  }
+  .program {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .program-items {
+    width: 185.92px;
+    margin: 13px auto;
+    -webkit-box-shadow: 0.46597px 0.46597px 6.98958px rgba(0, 0, 0, 0.25);
+            box-shadow: 0.46597px 0.46597px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+  }
+  .program-content {
+    padding: 0 8.85 10.72px 8.85px;
+  }
+  .program-content-name {
+    font-size: 14px;
+    line-height: 13.58px;
+    margin: 6.13px 0 17.91px 0;
+    letter-spacing: 0.3px;
+  }
+  .viewer {
+    font-size: 14px;
+    line-height: 13.58px;
+    margin-bottom: 4px;
+  }
+  .program-date,
+  .program-name {
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 0.2px;
+  }
 }
+/*# sourceMappingURL=style.css.map */
