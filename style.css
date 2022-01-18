@@ -104,7 +104,9 @@ h2, h3, h4, p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 3px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  align-items: center;
 }
 
 .short-info-title {
@@ -112,6 +114,7 @@ h2, h3, h4, p {
   line-height: 115%;
   margin-left: 10px;
   margin-right: 40px;
+  white-space: nowrap;
 }
 
 h1 {
@@ -142,6 +145,11 @@ h1 {
   margin-top: 19px;
 }
 
+.callout-center {
+  display: flex;
+  justify-content: center;
+}
+
 .callout {
   max-width: 483.63px;
   height: 200.02px;
@@ -149,9 +157,8 @@ h1 {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-color: #1E4681;
   border-radius: 5px;
-  margin-left: 288px;
-  margin-bottom: 173px;
   margin-top: 68px;
+  margin-right: 100px;
   padding: 20px 31px 20px 31px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -826,7 +833,7 @@ h1 {
     max-width: 225px;
     border-radius: 2.33px;
     margin-bottom: 75px;
-    margin-left: 0;
+    margin: 0 auto;
     margin-top: 39px;
     padding: 10px 14px 10px 14px;
     height: 95px;

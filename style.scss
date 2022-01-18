@@ -92,7 +92,8 @@ h2, h3, h4, p {
 
 .icon-info-title {
     display: flex;
-    margin-top: 3px;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .short-info-title {
@@ -100,6 +101,7 @@ h2, h3, h4, p {
     line-height: 115%;
     margin-left: 10px;
     margin-right: 40px;
+    white-space: nowrap;
 }
 
 h1 {
@@ -392,7 +394,7 @@ h1 {
 @media (min-width: 992px) and (max-width:1279px) {
     .wrapper {
         max-width: calc(834px - 140px);
-        padding-top: 13px;
+        padding-top: 21px;
     }
 
     .logo-header {
