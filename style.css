@@ -731,7 +731,7 @@ h1 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
+        -ms-flex-pack: jпшеustify;
             justify-content: space-between;
   }
   .white-block {
