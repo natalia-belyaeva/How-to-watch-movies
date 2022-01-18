@@ -181,6 +181,9 @@ h1 {
   margin: 4px 0 0 0;
 }
 
+.head-block {
+  margin-bottom: 100px;
+}
 /* <!-- Шапка сайт + верхний блок --> конец */
 /* О курсе */
 .about-course {
