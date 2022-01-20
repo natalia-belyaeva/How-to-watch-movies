@@ -298,13 +298,15 @@ h1 {
 /* <!-- Курс прошло 1616 человек --> */
 .feedback {
   background: #EFEFEF;
+  padding: 91px 5px 126px;
+
 }
 
-.wrapper-feedback {
-  max-width: calc(1440px - 240px);
+.wrapper {
+  /* max-width: calc(1440px - 240px);
   margin: 0 auto;
-  padding: 91px 5px 126px;
-}
+  padding: 91px 5px 126px; */
+} 
 
 .feedback-h2 {
   /* padding-top: 91px; */
@@ -637,11 +639,9 @@ h1 {
     max-width: 384px;
   }
   /* <!-- Курс прошло 1616 человек --> */
-  .wrapper-feedback {
+  .feedback {
     padding: 53px 5px 64px;
-    max-width: calc(834px - 140px);
-    margin: 0 auto;
-    /* margin: 53px 73px 64px; */
+   
   }
   .feedback-h2 {
     font-size: 32px;
@@ -927,11 +927,8 @@ h1 {
     max-width: 299px;
   }
   /* <!-- Курс прошло 1616 человек -->*/
-  .wrapper-feedback {
-    max-width: calc(375px - 64px);
+  .feedback {
     padding: 42px 5px 36px;
-    margin: 0 auto;
-    /* margin: 42px 32px 36px 53px; */
   }
   .feedback-h2 {
     font-size: 26px;
