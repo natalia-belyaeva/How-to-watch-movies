@@ -270,16 +270,8 @@ h1 {
   padding: 70px 0;
 }
 
-.course-info-web {
-  max-width: 223px;
-}
-
-.course-info-access {
-  max-width: 271px;
-}
-
-.course-info-social {
-  max-width: 245px;
+.course-info-block {
+  max-width: 270px;
 }
 
 .course-info-header {
@@ -636,14 +628,8 @@ h1 {
   .course-info-text {
     font-size: 11px;
   }
-  .course-info-web {
-    max-width: 142px;
-  }
-  .course-info-access {
-    max-width: 172px;
-  }
-  .course-info-social {
-    max-width: 142px;
+  .course-info-block {
+    max-width: 170px;
   }
   .course-info-list {
     font-size: 14px;
@@ -931,16 +917,8 @@ h1 {
   .course-info-text {
     font-size: 10px;
   }
-  .course-info-web {
-    max-width: 180px;
-    margin-bottom: 30px;
-  }
-  .course-info-access {
-    max-width: 165px;
-    margin-bottom: 30px;
-  }
-  .course-info-social {
-    max-width: 160px;
+  .course-info-block {
+    max-width: 170px;
     margin-bottom: 30px;
   }
   .course-info-list {
