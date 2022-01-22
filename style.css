@@ -306,7 +306,7 @@ h1 {
   /* max-width: calc(1440px - 240px);
   margin: 0 auto;
   padding: 91px 5px 126px; */
-} 
+}
 
 .feedback-h2 {
   /* padding-top: 91px; */
@@ -397,14 +397,8 @@ h1 {
 /* <!-- Начало курса --> */
 .start-course {
   background-color: #9DC9C8;
-}
-
-.start-course-wrapper {
-  max-width: calc(1440px - 240px);
-  margin-left: 122px;
   padding-top: 179px;
   padding-bottom: 185px;
-  margin: 0 auto;
 }
 
 .start-course-h2 {
@@ -431,7 +425,7 @@ h1 {
   display: flex;
 }
 
-.any-level {
+.start-course-feature {
   margin-right: 70px;
   max-width: 294px;
 }
@@ -447,22 +441,12 @@ h1 {
   font-size: 18px;
 }
 
-.come-now {
-  max-width: 294px;
-}
-
 /* <!-- Начало курса --> конец*/
 /* <!-- Футер --> */
 .footer {
   background-color: #000000;
-}
-
-.footer-wrapper {
-  max-width: calc(1440px - 240px);
-  margin-left: 122px;
   padding-top: 50px;
   padding-bottom: 47px;
-  margin: 0 auto;
 }
 
 .footer-contacts {
@@ -641,7 +625,7 @@ h1 {
   /* <!-- Курс прошло 1616 человек --> */
   .feedback {
     padding: 53px 5px 64px;
-   
+
   }
   .feedback-h2 {
     font-size: 32px;
@@ -693,26 +677,17 @@ h1 {
   .start-course-text {
     font-size: 10px;
   }
-  .any-level {
+  .start-course-feature {
     margin-right: 40px;
     max-width: 170px;
   }
-  .come-now {
-    max-width: 170px;
-  }
-  .start-course-wrapper {
-    max-width: 694px;
-    margin-left: 70px;
+  .start-course {
     padding-top: 103px;
     padding-bottom: 107px;
-    margin: 0 auto;
   }
-  .footer-wrapper {
-    max-width: 694px;
-    margin-left: 70px;
+  .footer {
     padding-top: 29px;
     padding-bottom: 14px;
-    margin: 0 auto;
   }
   .logo-white {
     max-width: 67px;
@@ -805,7 +780,7 @@ h1 {
   .mobile-screen {
     text-align: right;
   }
-  
+
   .speaker {
     max-width: 142px;
   }
@@ -857,7 +832,7 @@ h1 {
 .info p {
     font-size: 12px;
     line-height: 150%;
-    margin-bottom: 16px;        
+    margin-bottom: 16px;
 }
 .producer {
     max-width: 170.55px;
@@ -873,7 +848,7 @@ h1 {
 .about-course-block2 p {
     font-size: 10px;
     line-height: 130%;
-    width: 86px;        
+    width: 86px;
 }
 .about-course-block2 {
     margin-right: 33.33px;
@@ -977,26 +952,17 @@ h1 {
   .start-course-text {
     font-size: 10px;
   }
-  .any-level {
+  .start-course-feature {
     margin-right: 31px;
     max-width: 138px;
   }
-  .come-now {
-    max-width: 138px;
-  }
-  .start-course-wrapper {
-    max-width: calc(375px - 68px);
-    margin-left: 35px;
+  .start-course {
     padding-top: 62px;
     padding-bottom: 63px;
-    margin: 0 auto;
   }
-  .footer-wrapper {
-    max-width: calc(375px - 68px);
-    margin-left: 38px;
+  .footer {
     padding-top: 24px;
     padding-bottom: 10px;
-    margin: 0 auto;
   }
   .footer-contacts {
     display: block;
